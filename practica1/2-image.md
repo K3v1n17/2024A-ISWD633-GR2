@@ -7,7 +7,8 @@ Es un archivo único que contiene todos los programas, librerías, dependencias 
 
 
 ## ¿Cuál es la relación entre una imagen y un contenedor? 
-# COMPLETAR 
+La principal relacion se da ya que un contenedor es una instancia en ejecución de una imagen Docker. Aísla la aplicación de su entorno y garantiza que funcione de manera uniforme en cualquier plataforma.
+Las imágenes se utilizan para construir contenedores, y los contenedores se utilizan para ejecutar y distribuir aplicaciones de manera consistente en diferentes entornos.
 
 ![Imagen y contenedores](imagenes/imagenYcontenedores.JPG)
 ## Comandos para imágenes
@@ -33,10 +34,12 @@ docker pull hello-world:latest
 
 **¿Qué es nginx**
 
-nginx es un servidor web de codigo abiert
+Nginx es un servidor web de código abierto que también puede funcionar como proxy inverso, balanceador de carga, servidor de correo electrónico y servidor de streaming de medios.
 
 Descargar la imagen  **nginx** en la versión **alpine**
-# COMPLETAR
+ ```
+docker pull nginx:alpine
+```
 
 ### Listar imágenes
 
@@ -45,6 +48,7 @@ docker images
 ```
 
 # COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
+
 
 **Identificadores**
 En Docker, se utilizan varios identificadores para diferenciar de manera única los elementos del sistema, como imágenes, contenedores, volúmenes y redes. Estos identificadores son generados automáticamente por Docker y son únicos dentro del contexto del sistema Docker en el que se encuentran. 
