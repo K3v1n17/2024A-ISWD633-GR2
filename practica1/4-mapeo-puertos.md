@@ -18,7 +18,7 @@ docker run -d --name contenedorpuertos -p 3000:80 nginx:alpine
 ```
 # COLOCAR UNA CAPTURA DE PANTALLA  DEL ACCESO http://localhost:3000
 
-
+![docker-images](imagenes/docker-images.png)
 
 ### Para mapear más de un puerto
 
