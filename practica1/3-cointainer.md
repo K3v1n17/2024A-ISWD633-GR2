@@ -92,8 +92,15 @@ docker rm <nombre contenedor>
 Eliminar el contenedor que se creó a partir de la imagen hello-world 
 # COMPLETAR
 
+```
+docker rm  hello-world
+```
+
 Verificar que el contenedor que se eliminó
 # COMPLETAR
+```
+docker ps -a
+```
 
 ### Para eliminar un contenedor que esté ejecutándose
 
