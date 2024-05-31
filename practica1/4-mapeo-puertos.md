@@ -18,7 +18,7 @@ docker run -d --name contenedorpuertos -p 3000:80 nginx:alpine
 ```
 # COLOCAR UNA CAPTURA DE PANTALLA  DEL ACCESO http://localhost:3000
 
-![docker-images](imagenes/docker-images.png)
+![nginx-levantado](imagenes/nginxlevantado.png)
 
 ### Para mapear más de un puerto
 
@@ -28,4 +28,8 @@ docker run -d --name <nombre contenedor> -p <puerto host 01>:<puerto contenedor 
 
 Crear un contenedor a partir de la imagen rabbitmq version management-alpine, para este mapeo de puertos usar en el host los mismos puertos del contenedor.
 # COMPLETAR
+
+```
+docker run -d --name mi-rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:management-alpine
+```
 
