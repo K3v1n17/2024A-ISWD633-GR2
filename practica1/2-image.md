@@ -28,10 +28,11 @@ docker pull <nombre imagen>:<tag>
 
 Descargar la imagen **hello-world**
 # COMPLETAR
+docker pull hello-world:latest
 
 **¿Qué es nginx**
 # COMPLETAR 
-
+s
 Descargar la imagen  **nginx** en la versión **alpine**
 # COMPLETAR
 
